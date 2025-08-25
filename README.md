@@ -2,6 +2,9 @@
 
 A comprehensive toolkit for forecasting microplastic concentration in ocean waters using statistical modeling, deep learning, and clustering approaches, with a focus on waters around Japan.
 
+![error_dbscan_cnnlstm_SA](https://github.com/user-attachments/assets/137f4c96-4104-4788-8e51-20861d7e6d92)
+![error_dbscan_convlstm](https://github.com/user-attachments/assets/e10a0f0a-17d3-4483-af31-508dbae811b5)
+
 # Overview
 This repository contains implementations and results from a multi-method analysis of spatiotemporal forecasting for microplastic concentration. The research explores:
 - Clustering Analysis: DBSCAN for identifying high-concentration regions
@@ -41,6 +44,7 @@ The microplastic concentration data is derived from NASA's CYGNSS mission datase
 - RevIN normalization techniques boost model performance for non-stationary time series
 - Transformer-based approaches capture long-range dependencies better than CNN-LSTM for longer forecast horizons
 - DBSCAN clustering effectively identifies coherent high-concentration regions of microplastics
+
 
 # Acknowledgments
 This research was conducted at Minerva AI Sustainability Lab in collaboration with The Nippon Foundation from Japan.
